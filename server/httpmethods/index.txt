@@ -1,0 +1,5 @@
+// HTTP Methoid
+// GET, POST, PUT, PATCH, DELETE
+// when we want to get something from server called get request
+// post= to send some data to the server
+// put = to give something like phot and file

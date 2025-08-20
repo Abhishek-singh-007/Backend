@@ -1,0 +1,17 @@
+Rest api -JSON
+
+GET/users = list all html users
+
+1. GET/api/users = list all json users  -> yeh unkeliye jnke pass browser nhi hai yoh json file de dunga phone mai
+app.get("/users", (req, res) => {
+  return res.json(users);
+});
+
+2. GET/api/users/1 = get the user with id 1
+GET/api/users/2 = get the user with id 2
+GET/api/users/:id = get the user with id ${}
+
+POST/api/user=create new users
+PATCH/api/users/id=edit the user witj id
+DELETE/api/users/1=deletet he user with id 1
+
